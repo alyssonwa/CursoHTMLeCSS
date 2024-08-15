@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de textos</title>
+    <style>
+        mark{
+            background-color: lime;
+        }
+    </style>
 </head>
 <body>
     <h1>Principais formatações</h1>
@@ -14,5 +19,24 @@
     <h2>Itálico / Ênfase</h2>
     <p>Nesta frase, temos um <i>termo em Itálico</i> usando a tag I (não semântica)</p>
     <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag &lt;em&gt;(semântica)</p>
+
+    <h2>Texto Marcado</h2>
+    <p>Podemos também criar um <mark style="background-color: lime;">texto marcado</mark>, usando a tag &lt;mark&gt;</p>
+    <p>agora que a tag style foi criada como uma padrão, <mark>todas as frases marcadas</mark> ficarão da cor definida no seletor da tag mark.</p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>Texto Grande</big> e um <small>texto pitico</small>(big é não semântico e small é semÂntico)</p>
+
+    <h2>Texto deletado</h2>
+    <p>podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+
+    <h2>Texto Inserido</h2>
+    <p>podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u>, com a tag &lt;u&gt;(não semântico)</p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo: x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
 </body>
 </html>
