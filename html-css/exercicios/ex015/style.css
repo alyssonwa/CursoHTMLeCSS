@@ -1,0 +1,13 @@
+@charset "UTF-8"; /*Regra no início do arquivo css para aplicar a todo o documento, já que não vai pegar as configurações do html -- nesse caso o utf8 permite que acentos sejam utilizados, padrão br*/
+body{
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color:maroon;
+    background-color: darkgoldenrod;
+}
+h2{
+    color: darkred;
+}
