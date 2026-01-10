@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borda Personalizada</title>
+    <style>
+        h1{
+            border: 20px solid transparent;
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 19;
+            border-image-repeat: stretch; 
+            /*repeat repete os elementos da imagem, round repete elementos inteiros evitando cortar e o stretch deixa de forma esticada*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+</body>
+</html>
