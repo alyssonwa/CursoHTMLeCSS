@@ -5,16 +5,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --fonteTitulo: 'Passion One', cursive;
-    --fonteCordel: 'Sriracha', Times, serif
+    --fontePadrao: verdana, Geneva, Tahoma, sans-serif;
+    --fonteTitulo: 'Passion One', sans-serif ;
+    --fonteCordel: 'Sriracha', cursive;
 }
 
 *{
     margin:0px;
     padding: 0px;
 }
-body {
-    background-color: white;
+html, body {
+    min-height: 100vh;
+    background-color: whitesmoke;
+    font-family: var(--fontePadrao);
 }
 header {
     background-color: black;
@@ -22,34 +25,44 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-h1 {
+ h1 {
     font-family: var(--fonteTitulo);
     color : white;
     margin: auto;
     padding: 5px;
+    font-variant: small-caps;
+    font-size: 6vw;
    
 }
 header > p {
     font-family: var(--fonteTitulo);
     color: gray;
-    
-
 }
 p > a {
     font-family: var(--fonteTitulo);
     color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+p >a:hover {
+    text-decoration: underline;
+}
+section {
+    /* margin-bottom: 30px; */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 2vw;
 }
 section > p {
     white-space: pre-line;
     font-family: var(--fonteCordel);
-    padding-left: 15px;
-}
-section {
-    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-bottom: 2em;
 }
 section#fundo1 {
     position: relative;
-    height: 50vh;
+    height: 70vh;
     background-image: url('../imagens/background001.jpg');
     background-repeat: no-repeat;
     background-position: right center;
@@ -61,8 +74,11 @@ section#fundo1 {
 }
 p#fundo1 {
     color: white;
-    width: 200px;
-    height: 250px;
+    display: inline-block;
+    padding: 5px;
+    height: 70vh;
+    /* width: 200px;
+    height: 250px; */
     background-attachment: scroll;
     background-color: rgba(0, 0, 0, 0.233);
     background-repeat: no-repeat;
@@ -72,7 +88,7 @@ p#fundo1 {
 
 section#fundo2 {
      position: relative;
-    height: 50vh;
+    height: 70vh;
     background-image: url('../imagens/background002.jpg');
     background-repeat: no-repeat;
     background-position: right center;
@@ -85,8 +101,8 @@ section#fundo2 {
 p#fundo2 {
    
     color: white;
-    width: 200px;
-    height: 250px;
+    display: inline-block;
+    height: 70vh;
     background-attachment: scroll;
     background-color: rgba(0, 0, 0, 0.233);
     background-repeat: no-repeat;
@@ -95,6 +111,7 @@ p#fundo2 {
 }
 footer {
     background-color: black;
+    padding: 10px;
 }
 footer > p {
     color: white;
