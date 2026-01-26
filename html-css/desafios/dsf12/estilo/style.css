@@ -13,6 +13,7 @@
 *{
     margin:0px;
     padding: 0px;
+    font-size: 1em;
 }
 html, body {
     min-height: 100vh;
@@ -22,24 +23,24 @@ html, body {
 header {
     background-color: black;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
  h1 {
     font-family: var(--fonteTitulo);
     color : white;
     margin: auto;
-    padding: 5px;
+    padding-bottom: 10px;
+    padding-top: 50px;
     font-variant: small-caps;
-    font-size: 6vw;
+    font-size: 8vw;
    
 }
 header > p {
     font-family: var(--fonteTitulo);
     color: gray;
+    padding-bottom: 50px;
 }
 p > a {
-    font-family: var(--fonteTitulo);
+    font-family: var(--fontePadrao);
     color:white;
     text-decoration: none;
     font-weight: bolder;
@@ -48,66 +49,38 @@ p >a:hover {
     text-decoration: underline;
 }
 section {
-    /* margin-bottom: 30px; */
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-left: 30px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     line-height: 2em;
-    font-size: 2vw;
+    font-size: 3.5vw;
+    font-family: var(--fonteCordel);
 }
 section > p {
     white-space: pre-line;
-    font-family: var(--fonteCordel);
-    padding-left: 30px;
     padding-bottom: 2em;
 }
-section#fundo1 {
-    position: relative;
-    height: 70vh;
-    background-image: url('../imagens/background001.jpg');
-    background-repeat: no-repeat;
-    background-position: right center;
+section.imagem {
+    background-color: rgb(51,51,51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.459);
     background-size: cover;
-    background-color: black;
-    max-width: 1468px;
-    min-width: 350px;
     background-attachment: fixed;
 }
-p#fundo1 {
-    color: white;
+section.imagem > p {
     display: inline-block;
     padding: 5px;
-    height: 70vh;
-    /* width: 200px;
-    height: 250px; */
-    background-attachment: scroll;
     background-color: rgba(0, 0, 0, 0.233);
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    padding-top: 25px;
+    text-shadow: 1px 1px 0px black;
 }
-
-section#fundo2 {
-     position: relative;
-    height: 70vh;
-    background-image: url('../imagens/background002.jpg');
-    background-repeat: no-repeat;
+section#fundo1 {
+    background-image: url('../imagens/background001.jpg');
     background-position: right center;
-    background-size: cover;
-    background-color: black;
-    max-width: 1468px;
-    min-width: 350px;
-    background-attachment: fixed;
-}
-p#fundo2 {
    
-    color: white;
-    display: inline-block;
-    height: 70vh;
-    background-attachment: scroll;
-    background-color: rgba(0, 0, 0, 0.233);
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    padding-top: 25px;
+}
+section#fundo2 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 footer {
     background-color: black;
