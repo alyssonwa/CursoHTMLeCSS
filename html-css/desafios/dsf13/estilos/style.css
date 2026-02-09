@@ -48,6 +48,9 @@ nav {
     width: 100px;
     height: 560px;
 }
+ul {
+    margin-top: 10px;
+}
 li {
     align-items: right;
     padding-right: 15px;
@@ -58,8 +61,19 @@ img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.331);
+    box-sizing: border-box;
 }
-div#frame-iphone {
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.626);
+    transform: translate(-3px,-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+    transition: transform 0.35s, border 0.5s;
+}
+section#redes-sociais {
+    text-align: right;
+}
+/* div#frame-iphone {
     background-image: url('../imagens/frame-iphone.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -80,7 +94,7 @@ iframe#frame-iphone {
     position: absolute;
     background-position: center center;
     display: flex;
-    /* justify-content: center;
+    justify-content: center;
     align-items: center;
     top: 50%;
     left: 50%;
@@ -89,6 +103,6 @@ iframe#frame-iphone {
     height: 500px;
     margin-left: 110px;
     justify-content: center;
-    align-items: middle; */
+    align-items: middle;
 
-}
+} */
