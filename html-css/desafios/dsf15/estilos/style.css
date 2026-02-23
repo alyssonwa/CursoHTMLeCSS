@@ -4,6 +4,129 @@
     Paleta de cores
     Verde: #49a09d
     Lilás: #5f2c82
+
+    Typical Device Breakpoints
+    Pequenas telas: até 600px;
+    celular: de 600px até 768px;
+    Tablet: 768px até 992px;
+    Desktop: 992px até 1200px;
+    Grandes telas: acima de 1200px;
 */
 
+:root {
+    --verde: #49a09d;
+    --verde_light: #7bdfdbcc;
+    --lilas: #5f2c82;
+}
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-color: #5f2c82;
+    /* background-image: linear-gradient(to top, var(--verde), var(--lilas)); */
+   
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 627px;
+    width: 311px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+h1 {
+   text-align: center;
+   padding: 10px;
+   font-size: 1.5em;
+}
+p{
+    /* text-indent: 5px; */
+    padding: 5px;
+    text-justify: left;
+    line-height: 1.3em;
+}
+div > img {
+    position: relative;
+    border-radius: 15px 15px 0px 0px;
+    height: 200px;
+    width: 311px;
+}
+form {
+    margin:auto;
+    /* background-color: lightblue; */
+    width: 300px;
+}
+input#iemail {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom:1px;
+    background-color: #7bdfdbcc;
+    width: 177px;
+}
+label#iemail {
+    padding-left: 5px;
+}
+label#iemail > span {
+    color: white;
+    background-color: var(--lilas);
+    text-align: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+input#isenha{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    background-color: var(--verde_light);
+    width: 177px;
+}
+label#isenha {
+    padding-left: 5px;
+}
+label#isenha > span {
+
+    color: white;
+    background-color: var(--lilas);
+     text-align: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+div#email{
+    /* background-color: pink; */
+}
+div#senha {
+    /* background-color: lightgreen; */
+}
+input#entrar {
+    width: 270px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--verde);
+    color: white;
+    border-radius: 10px;
+}
+input#esquecer_senha {
+    width: 270px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
