@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to top, var(--verde), var(--lilas));
+}
+
+main {
+    position: absolute;
+    height: 305px;
+    width: 751px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+div > img {
+    position: relative;
+    border-radius: 15px 0px 0px 15px;
+    height: 305px;
+    width: 211px;
+}
+
+div#formulario {
+    position: relative;
+    top: -297px;
+    left: 210px;
+    height: 275px;
+    width: 540px;
+}
+
+h1 {
+   text-align: top, center;
+   padding-top: 0px;
+   font-size: 1.5em;
+}
+p{
+    /* text-indent: 5px; */
+    padding: 5px;
+    text-justify: left;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+input#iemail {
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom:1px;
+    background-color: #7bdfdbcc;
+    width: 420px;
+}
+label#iemail {
+    padding-left: 0px;
+    display: flex;
+    justify-content: left;
+    display:flex;
+    align-items: center;
+    position: relative;
+    left: -10px;
+    top: 5px;
+}
+label#iemail > span {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: var(--lilas);
+    text-align: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+div#email {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: -90px;
+    width: 1000px;
+}
+div#senha {
+     display: flex;
+    justify-content: left;
+    position: relative;
+    left: -90px;
+    width: 1000px;
+}
+input#isenha{
+   display: flex;
+    justify-content: right;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    background-color: #7bdfdbcc;
+    width: 420px;
+}
+label#isenha {
+    padding-left: 0px;
+}
+label#isenha > span {
+     padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    position: relative;
+    left: -10px;
+    top: 5px;
+}
+input#entrar {
+    width: 515px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--verde);
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    left: -101px;
+}
+input#esquecer_senha {
+    width: 515px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    position: relative;
+    left: -101px;
+}
