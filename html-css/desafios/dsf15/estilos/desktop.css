@@ -5,59 +5,56 @@ body {
 }
 main {
     height: 335px;
-    width: 775px;
+    width: 1000px;
 }
 div#imagem > img {
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 0px 15px 15px 0px;
     height: 335px;
-    width: 242px;
+    width: 500px;
+    position: relative;
+    left:500px;
+    bottom: 0px;
 }
 div#formulario {
     position: relative;
-    top: -315px;
-    left: 234px;
-    height: 305px;
-    width: 555px;
-}
-h1 {
-    padding-top: 0px;
+    top: -330px;
+    left: 10px;
+    height: 335px;
+    width: 500px;
 }
 p {
-    padding-left: 24px;
+    padding-left: 14px;
 }
 div#email, div#senha {
     width: 1000px;
-    height: 42px;
+    height: 45px;
     display: flex;
     justify-content: left;
     position: relative;
     left: -90px;
+    top: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 input#iemail, input#isenha {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    width: 430px;
+    width: 370px;
     position: relative;
-    left: -22px;   
-    top:0px;
+    left: 10px;   
+    top:-35px;
 }
 label#iemail > span, label#isenha > span {
     position: relative;
-    left: -22px;
-    top: 0px;
+    top: -35px;
 }
 input#entrar {
-    width: 515px;
-    margin-top:0px;
+    width: 467px;
+    margin-top: 5px;
     margin-bottom: 10px;
     position: relative;
-    left: -112px;
+    left: -87px;
 }
 input#esquecer_senha {
-    width: 515px;
+    width: 467px;
     position: relative;
-    left: -112px;
+    left: -87px;
 }
