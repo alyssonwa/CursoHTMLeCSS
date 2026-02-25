@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to top, var(--verde), var(--lilas));
+}
+main {
+    height: 335px;
+    width: 1000px;
+}
+div#imagem > img {
+    border-radius: 0px 15px 15px 0px;
+    height: 335px;
+    width: 500px;
+    position: relative;
+    left:500px;
+    bottom: 0px;
+}
+div#formulario {
+    position: relative;
+    top: -330px;
+    left: 10px;
+    height: 335px;
+    width: 500px;
+}
+p {
+    padding-left: 14px;
+}
+div#email, div#senha {
+    width: 1000px;
+    height: 45px;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: -90px;
+    top: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input#iemail, input#isenha {
+    width: 370px;
+    position: relative;
+    left: 10px;   
+    top:-35px;
+}
+label#iemail > span, label#isenha > span {
+    position: relative;
+    top: -35px;
+}
+input#entrar {
+    width: 467px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    left: -87px;
+}
+input#esquecer_senha {
+    width: 467px;
+    position: relative;
+    left: -87px;
+}
