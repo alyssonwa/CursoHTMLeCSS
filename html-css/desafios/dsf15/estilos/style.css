@@ -12,11 +12,14 @@
     Desktop: 992px até 1200px;
     Grandes telas: acima de 1200px;
 */
-
 :root {
     --verde: #49a09d;
     --verde_light: #7bdfdbcc;
     --lilas: #5f2c82;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
 * {
     margin: 0px;
@@ -29,6 +32,7 @@ html,body {
 }
 body {
     background-color: #5f2c82;
+    background-attachment: fixed;
     /* background-image: linear-gradient(to top, var(--verde), var(--lilas)); */
 }
 main {

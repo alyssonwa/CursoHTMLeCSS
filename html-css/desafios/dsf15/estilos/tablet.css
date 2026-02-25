@@ -2,6 +2,7 @@
 
 body {
     background-image: linear-gradient(to top, var(--verde), var(--lilas));
+    /* background-color: var(--verde); */
 }
 main {
     height: 335px;
