@@ -3,58 +3,23 @@
 body {
     background-image: linear-gradient(to top, var(--verde), var(--lilas));
 }
-main {
-    height: 335px;
-    width: 1000px;
+section#login {
+    width: 950px;
+    height: 350px;
 }
-div#imagem > img {
-    border-radius: 0px 15px 15px 0px;
-    height: 335px;
-    width: 500px;
-    position: relative;
-    left:500px;
-    bottom: 0px;
+section#login > div#imagem {
+    float: right;
+    width: 50%;
+    height: 100%;
 }
-div#formulario {
-    position: relative;
-    top: -330px;
-    left: 10px;
-    height: 335px;
-    width: 500px;
+section#login > div#formulario {
+    float: left;
+    width: 50%;
 }
-p {
-    padding-left: 14px;
+div#formulario > h1 {
+ font-size: 2em;
 }
-div#email, div#senha {
-    width: 1000px;
-    height: 45px;
-    display: flex;
-    justify-content: left;
-    position: relative;
-    left: -90px;
-    top: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-input#iemail, input#isenha {
-    width: 370px;
-    position: relative;
-    left: 10px;   
-    top:-35px;
-}
-label#iemail > span, label#isenha > span {
-    position: relative;
-    top: -35px;
-}
-input#entrar {
-    width: 467px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    position: relative;
-    left: -87px;
-}
-input#esquecer_senha {
-    width: 467px;
-    position: relative;
-    left: -87px;
+div#formulario > p{
+    font-size: 1em;
+    margin: 20px 0px;
 }
