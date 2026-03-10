@@ -1,23 +1,11 @@
 @charset "UTF-8";
 
-/*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 992px){
-    header > nav {
-    justify-content: flex-start;
-    align-items: center;
-   
+header, header > nav {
+    flex-flow: column nowrap;
 }
-header {
-    align-items: flex-start;
+header > h1 {
+    flex-basis: 50px;
 }
-} 
-@media screen and (max-width: 768px) {
-   
-header > nav {
-   display: inline-block;
-   
-}
-
-    
-   
+header > nav > a{
+    width: 90vw;
 }
